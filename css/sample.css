@@ -214,6 +214,17 @@ header {
   padding: 15px;
   margin-bottom: 0px; }
 
+#contents #sidebar .pc_sidemenu li {
+  list-style: none;
+  display: block;
+  border-bottom: 1px solid #e5e5e5;
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  margin-bottom: 0px;
+  padding: 10px 10px 10px 20px;
+  background-image: url(../images/news/side_arrow.png);
+  background-size: 4px 8px; }
+
 #contents #main th {
   padding-right: 20px; }
 
