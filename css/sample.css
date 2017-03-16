@@ -222,6 +222,15 @@ header {
   color: #626262;
   font-size: 1.4rem; }
 
+#contents #main .news_li {
+  font-size: 1.5rem;
+  list-style: none; }
+  #contents #main .news_li span {
+    color: #42b9d0;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px; }
+
 @media (max-width: 550px) {
   #contents #sidebar .pc_sidemenu {
     display: none; } }
@@ -243,18 +252,19 @@ header {
     #sub_cover #contents {
       padding-top: 35px;
       padding-bottom: 70px; }
+      #sub_cover #contents .news_li li {
+        list-style: none;
+        padding-bottom: 5px; }
+      #sub_cover #contents .news_li li span {
+        display: inline-block;
+        margin-bottom: 0;
+        padding-right: 10px;
+        font-weight: bold; }
 
-  /**ニュースリリース**/
-  .news_li {
-    font-size: 1.5rem; }
-    .news_li li {
-      list-style: none;
-      padding-bottom: 5px; }
-    .news_li span {
-      color: #42b9d0;
-      display: inline-block;
-      margin-bottom: 0;
-      padding-right: 10px; } }
+  #contents #main .news_li li span {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-right: 10px; } }
 /**会社概要**/
 footer {
   background-color: #42b9d0;
